@@ -9,7 +9,7 @@
 
 Just the basics to get the container running:
 
-```shell hl_lines="4 5 6 7 8 9 10 11 12"
+```shell
 docker run --rm \
     --name autoscan \
     -p 3030:3030 \
@@ -25,8 +25,6 @@ docker run --rm \
     -v /<host_folder_config>:/config \
     hotio/autoscan
 ```
-
-The [highlighted](https://hotio.dev/containers/autoscan) variables are all optional, the values you see are the defaults.
 
 If `PLEX_LOGIN` + `PLEX_PASSWORD` are not empty and the file `/config/app/plex.token` does not exist, an attempt is made to get a Plex token for Autoscan.
 
