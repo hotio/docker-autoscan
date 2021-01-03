@@ -26,6 +26,31 @@ docker run --rm \
     hotio/autoscan
 ```
 
+Compose:
+
+```yaml
+version: "3.7"
+
+services:
+  autoscan:
+    container_name: autoscan
+    image: hotio/autoscan
+    ports:
+      - "3030:3030"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+      - ARGS
+      - DEBUG=no
+      - AUTOSCAN_VERBOSITY=0
+      - PLEX_LOGIN
+      - PLEX_PASSWORD
+    volumes:
+      - /<host_folder_config>:/config
+```
+
 If `PLEX_LOGIN` + `PLEX_PASSWORD` are not empty and the file `/config/app/plex.token` does not exist, an attempt is made to get a Plex token for Autoscan.
 
 ## Tags
