@@ -51,7 +51,7 @@ If `PLEX_LOGIN` + `PLEX_PASSWORD` are not empty and the file `/config/app/plex.t
 
 ## Tags
 
-Go [here](https://hotio.dev/containers-overview/#hotioautoscan) to see all available tags.
+Go [here](https://hotio.dev/tags-overview/#hotioautoscan) to see all available tags.
 
 ## Using a secure Plex connection
 
