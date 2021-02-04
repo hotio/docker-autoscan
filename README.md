@@ -51,12 +51,7 @@ If `PLEX_LOGIN` + `PLEX_PASSWORD` are not empty and the file `/config/app/plex.t
 
 ## Tags
 
-| Tag                | Upstream               | Version | Build |
-| -------------------|------------------------|---------|-------|
-| `release` (latest) | GitHub releases        | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fautoscan%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/autoscan/build/release?style=flat-square&label=) |
-| `nightly`          | Every commit to master | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fautoscan%2Fnightly%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/autoscan/build/nightly?style=flat-square&label=) |
-
-You can also find tags that reference a commit or version number.
+Go [here](https://hotio.dev/containers-overview/#hotioautoscan) to see all available tags.
 
 ## Using a secure Plex connection
 
