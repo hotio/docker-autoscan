@@ -17,7 +17,6 @@ docker run --rm \
     -e PGID=1000 \
     -e UMASK=002 \
     -e TZ="Etc/UTC" \
-    -e ARGS="" \
     -e PLEX_LOGIN="" \
     -e PLEX_PASSWORD="" \
     -v /<host_folder_config>:/config \
@@ -40,7 +39,6 @@ services:
       - PGID=1000
       - UMASK=002
       - TZ=Etc/UTC
-      - ARGS
       - PLEX_LOGIN
       - PLEX_PASSWORD
     volumes:
